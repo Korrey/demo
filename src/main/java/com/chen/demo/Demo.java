@@ -5,7 +5,7 @@ import java.lang.annotation.Target;
 
 public class Demo {
 
-    @dd({})
+    @dd(value = "hri", age = 10)
     public void d() {
 
     }
@@ -14,5 +14,7 @@ public class Demo {
 @Target({ElementType.TYPE, ElementType.METHOD})
 @interface dd{
     String[] value();
+
+    int age();
 }
 
