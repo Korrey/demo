@@ -7,7 +7,7 @@ public class Demo {
 
     @dd(value = "hri", age = 10)
     public void d() {
-
+        System.out.println("t1 111");
     }
 }
 
